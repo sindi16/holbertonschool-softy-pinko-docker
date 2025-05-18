@@ -13,9 +13,6 @@ RUN apt-get install -y python3 python3-pip
 # Install Flask using pip3
 RUN pip3 install flask
 
-# Install Flask-Cors using pip3
-RUN pip3 install flask-cors
-
 # Set the working directory to /app
 WORKDIR /app
 
